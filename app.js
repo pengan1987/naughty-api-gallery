@@ -1,7 +1,8 @@
+"use strict";
 
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 const LocalStorage = require('node-localstorage').LocalStorage
 const localStorage = new LocalStorage('./scratch');
 
@@ -13,12 +14,18 @@ app.get('/', (req, res) => {
 
 app.get('/view/:artid', (req, res) => {
     let artid = req.params['artid']
-    localStorage.setItem('lastView',artid)
-    res.send('you are viewing: '+artid)
+    let time = req.query.time;
+    if (null == time || time == "") {
+        res.redirect('?time=' + Date.now())
+    } else {
+        localStorage.setItem('lastView', artid)
+        res.send('you are viewing: ' + artid)
+    }
 })
 
 app.get('/checkLastView', (req, res) => {
     let lastView = localStorage.getItem('lastView')
+    res.set('Cache-control', `no-store`)
     res.send(lastView)
 
 })
