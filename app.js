@@ -9,7 +9,7 @@ const localStorage = new LocalStorage('./scratch');
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.sendFile(path.join(__dirname, '/index.html'));
 })
 
 app.get('/view/:artid', (req, res) => {
@@ -19,7 +19,7 @@ app.get('/view/:artid', (req, res) => {
         res.redirect('?time=' + Date.now())
     } else {
         localStorage.setItem('lastView', artid)
-        res.send('you are viewing: ' + artid)
+        res.send('You are viewing item: ' + artid)
     }
 })
 
