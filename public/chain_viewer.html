@@ -8,30 +8,24 @@
 </head>
 
 <body>
-    Just make this windows minimum, it will pop up new windows when you click the artworks in the virtual space.
-    <div id="stateView"></div>
+    <p>
+        Keep this tab open in background, it will pop up new windows when you click the artworks in the virtual space.
+    </p>
+    <p>You are looking item: <span id="stateView"></span></p>
     <button onclick="openWindow()">Open Viewer Window</button>
     <script>
         let targetWindow = null;
         function openWindow() {
             if (null == targetWindow)
-            targetWindow = window.open("https://rinkeby.etherscan.io/token/0x5241ed64c9bfb1ad61a686ea97219e226969ce09")
+                targetWindow = window.open("https://rinkeby.etherscan.io/token/0x5241ed64c9bfb1ad61a686ea97219e226969ce09")
         }
         let lastResponse = "";
         function refresh() {
-            // make Ajax call here, inside the callback call:
             httpRequest = new XMLHttpRequest();
-
-
             httpRequest.onreadystatechange = processingLastView;
             httpRequest.open("GET", "/checkLastView");
             httpRequest.send();
-
-            //
-            // ...
         }
-
-
 
         function processingLastView() {
             if (this.readyState == 4 && this.status == 200) {
@@ -41,11 +35,8 @@
                     lastResponse = this.responseText
                     targetWindow.location = newUrl
                 }
-
             }
-
         }
-        // initial call, or just call refresh directly
         setInterval(refresh, 3000);
     </script>
 </body>
