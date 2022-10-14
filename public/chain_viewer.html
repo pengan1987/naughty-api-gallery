@@ -14,10 +14,12 @@
     <p>You are looking item: <span id="stateView"></span></p>
     <button onclick="openWindow()">Open Viewer Window</button>
     <script>
+        let trackerUrl = "https://evmtestnet.confluxscan.net/token/0x1797dcf0583e6c9807f4103f4943ea634141d730";
+        let itemViewerUrl = "https://evmtestnet.confluxscan.net/nft/0x1797dcf0583e6c9807f4103f4943ea634141d730/"
         let targetWindow = null;
         function openWindow() {
             if (null == targetWindow)
-                targetWindow = window.open("https://rinkeby.etherscan.io/token/0x5241ed64c9bfb1ad61a686ea97219e226969ce09")
+                targetWindow = window.open(trackerUrl)
         }
         let lastResponse = "";
         function refresh() {
@@ -30,7 +32,7 @@
         function processingLastView() {
             if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("stateView").innerHTML = this.responseText;
-                let newUrl = "https://rinkeby.etherscan.io/token/0x5241ed64c9bfb1ad61a686ea97219e226969ce09?a=" + this.responseText
+                let newUrl = itemViewerUrl + this.responseText
                 if (null != targetWindow && lastResponse != this.responseText) {
                     lastResponse = this.responseText
                     targetWindow.location = newUrl

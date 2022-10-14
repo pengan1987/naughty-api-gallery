@@ -4984,7 +4984,7 @@ Transform {
 								}
 
 								texture	ImageTexture {
-									url	"texture/IMAGE002.JPG"
+									url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P30"
 								}
 
 							}
@@ -5021,7 +5021,7 @@ Transform {
 			}
 		}
 		parameter	[ "target=market_frame" ]
-		url	"/view/3"
+		url	"/view/16"
 	}
 
 	Anchor {
@@ -5090,7 +5090,7 @@ Transform {
 							    }
 
 							    texture	ImageTexture {
-								    url	"texture/IMAGE038.JPG"
+								    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P25"
 							    }
 
 						    }
@@ -5128,7 +5128,7 @@ Transform {
 	    }
 	    description	"\"Computer museum on the web\""
 	    parameter	[ "target=market_frame" ]
-	    url	"/view/8"
+	    url	"/view/14"
     }
 
     Anchor {
@@ -5195,7 +5195,7 @@ Transform {
 							}
 
 							texture	ImageTexture {
-								url	"texture/IMAGE037.JPG"
+								url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P01"
 							}
 
 						}
@@ -5232,7 +5232,7 @@ Transform {
 		}
 	}
 	parameter	[ "target=market_frame" ]
-	url	"/view/1"
+	url	"/view/4"
 }
 
 Anchor {
@@ -5299,7 +5299,7 @@ Anchor {
 						    }
 
 						    texture	ImageTexture {
-							    url	"texture/IMAGE028.JPG"
+							    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P14"
 						    }
 
 					    }
@@ -5336,7 +5336,7 @@ Anchor {
 	    }
     }
     parameter	[ "target=market_frame" ]
-    url	"/view/2"
+    url	"/view/10"
     }
 
     Transform {
@@ -10804,7 +10804,7 @@ Anchor {
 									}
 
 									texture	ImageTexture {
-										url	"texture/IMAGE008.JPG"
+										url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P07"
 									}
 
 								}
@@ -10934,7 +10934,7 @@ Anchor {
 								    }
 
 								    texture	ImageTexture {
-									    url	"texture/IMAGE010.JPG"
+									    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P09"
 								    }
 
 							    }
@@ -12655,7 +12655,7 @@ children [
 	    }
 
 	    texture	ImageTexture {
-		    url	"texture/IMAGE008.JPG"
+		    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P07"
 	    }
 
     }
@@ -12694,7 +12694,7 @@ children [
 ]
 }
 parameter	[ "target=market_frame" ]
-url	"/view/10"
+url	"/view/7"
 }
 
 Transform {
@@ -13342,7 +13342,7 @@ Transform {
 					    }
 
 					    texture	ImageTexture {
-						    url	"texture/IMAGE045.JPG"
+						    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P27"
 					    }
 
 				    }
@@ -13449,7 +13449,7 @@ Transform {
 					}
 
 					texture	ImageTexture {
-						url	"texture/IMAGE045.JPG"
+						url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P27"
 					}
 
 				}
@@ -13624,7 +13624,7 @@ children [
 	    }
 
 	    texture	ImageTexture {
-		    url	"texture/IMAGE045.JPG"
+		    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P27"
 	    }
 
     }
@@ -13668,7 +13668,7 @@ center	0 0 0
     ]
     }
     parameter	[ "target=market_frame" ]
-    url	"/view/13"
+    url	"/view/15"
     }
 
     Transform {
@@ -26711,7 +26711,7 @@ material	Material {
 }
 
 texture	ImageTexture {
-url	"texture/IMAGE043.JPG"
+url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P24"
 }
 
 }
@@ -27400,7 +27400,7 @@ colorIndex	[ 0, 1, 0, 2, 3, 4 ]
     }
     }
     parameter	[ "target=market_frame" ]
-    url	"/view/9"
+    url	"/view/13"
     }
 
     Transform {
@@ -28793,7 +28793,7 @@ children [
     }
 
     texture	ImageTexture {
-    url	"texture/IMAGE041.JPG"
+    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P19"
     }
 
     }
@@ -28830,7 +28830,7 @@ texCoordIndex	[ 0, 1, 2, 3, -1 ]
     }
     }
     parameter	[ "target=market_frame" ]
-    url	"/view/6"
+    url	"/view/12"
     }
 
     Anchor {
@@ -28984,7 +28984,7 @@ material	Material {
 }
 
 texture	ImageTexture {
-url	"texture/IMAGE042.JPG"
+url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P04"
 }
 
 }
@@ -29021,7 +29021,7 @@ point	[ 0 0,
 }
 }
 parameter	[ "target=market_frame" ]
-url	"/view/7"
+url	"/view/5"
 }
 
 Anchor {
@@ -29090,7 +29090,7 @@ children [
     }
 
     texture	ImageTexture {
-    url	"texture/IMAGE036.JPG"
+    url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P05"
     }
 
     }
@@ -29127,7 +29127,7 @@ texCoordIndex	[ 0, 1, 2, 3, -1 ]
     }
     }
     parameter	[ "target=market_frame" ]
-    url	"/view/5"
+    url	"/view/6"
     }
 
     Transform {
@@ -37141,7 +37141,7 @@ material	Material {
 }
 
 texture	ImageTexture {
-url	"texture/IMAGE040.JPG"
+url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P08"
 }
 
 }
@@ -37178,7 +37178,7 @@ point	[ 0 0,
 }
 }
 parameter	[ "target=market_frame" ]
-url	"/view/11"
+url	"/view/8"
 }
 
 Anchor {
@@ -37782,7 +37782,7 @@ material	Material {
 }
 
 texture	ImageTexture {
-url	"texture/IMAGE010.JPG"
+url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P09"
 }
 
 }
@@ -39503,7 +39503,7 @@ material	Material {
 }
 
 texture	ImageTexture {
-url	"texture/IMAGE008.JPG"
+url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/fern"
 }
 
 }
@@ -39542,7 +39542,7 @@ point	[ 0 0,
     ]
     }
     parameter	[ "target=market_frame" ]
-    url	"/view/4"
+    url	"/view/3"
     }
 
     Anchor {
@@ -39611,7 +39611,7 @@ material	Material {
 }
 
 texture	ImageTexture {
-url	"texture/IMAGE040.JPG"
+url	"http://service-kjn9hzai-1255835060.gz.apigw.tencentcs.com/release/logo/P15"
 }
 
 }
@@ -39648,7 +39648,7 @@ point	[ 0 0,
 }
 }
 parameter	[ "target=market_frame" ]
-url	"/view/12"
+url	"/view/11"
 }
     ]
     }
